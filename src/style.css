@@ -22,7 +22,6 @@ main {
   border: 3px solid var(--primary-color);
   border-radius: 6px;
   padding: 0px 30px 30px;
-  font-size: 18px;
   min-height: 750px;
 }
 
@@ -63,12 +62,12 @@ form,
 .input-button {
   display: block;
   margin: 10px auto;
-  font-size: 20px;
   padding: 10px 40px;
   border-radius: 25px;
   border-style: none;
   background-color: var(--primary-color);
   color: #ffffff;
+  font-size: 16px;
 }
 
 .input-button:hover {
