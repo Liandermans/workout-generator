@@ -13,20 +13,27 @@
 
     <main>
       <form>
+        <label for="body-part"
+          >What body part do you want to train today?</label
+        >
         <input
+          id="body-part"
+          class="text-input"
           type="text"
-          placeholder="What body part do you want to train today?"
+          placeholder="i.e. Core, Legs, Glutes, Arms, Abs"
           autofocus
           required
         />
-        <input type="submit" value="Create workout!" />
+        <input class="input-button" type="submit" value="Create workout!" />
       </form>
-      <div>Here comes the workout</div>
+      <div class="generated-content">Here comes the workout</div>
     </main>
 
     <footer>
-      <a href="https://github.com/Liandermans/workout-generator">Open-source</a>
-      project coded by Lianne de Winter
+      <a href="https://github.com/Liandermans/workout-generator" target="_blank"
+        >Open-source</a
+      >
+      project coded by Lianne de Winter.
     </footer>
 
     <script src="src/script.js"></script>
