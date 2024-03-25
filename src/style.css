@@ -65,3 +65,8 @@ form,
   background-color: var(--primary-color);
   color: #ffffff;
 }
+
+.input-button:hover {
+  color: darkgray;
+  cursor: pointer;
+}
