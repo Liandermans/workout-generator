@@ -23,7 +23,6 @@ main {
   border-radius: 6px;
   padding: 0px 30px 30px;
   min-height: 750px;
-  text-align: left;
 }
 
 h1 {
@@ -78,4 +77,5 @@ form,
 
 .generated-content {
   min-height: 500px;
+  text-align: left;
 }
