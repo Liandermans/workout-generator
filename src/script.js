@@ -24,3 +24,14 @@ function generateWorkout(event) {
 
 let formElement = document.querySelector("form");
 formElement.addEventListener("submit", generateWorkout);
+
+let quotes = [
+  "<em>“Strength does not come from physical capacity. It comes from an indomitable will.”</em>  –Mahatma Gandhi",
+  "<em>“To keep the body in good health is a duty otherwise we shall not be able to keep our mind strong clear.”</em> <br>–Buddha",
+  "<em>“No pain, no gain.”</em> –Robert Herrick",
+  "<em>“Allow yourself the opportunity to get uncomfortable.”</em> <br>–Alex Toussaint",
+];
+
+let random = quotes[Math.floor(Math.random() * quotes.length)];
+let quoteElement = document.getElementById("motivational-quote");
+quoteElement.innerHTML = random;
