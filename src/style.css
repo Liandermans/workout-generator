@@ -93,6 +93,9 @@ form,
     background-position: center;
     height: auto;
   }
+  h1 {
+    font-size: 30px;
+  }
   form {
     margin-top: 0;
   }
