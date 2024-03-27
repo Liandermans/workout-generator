@@ -7,7 +7,6 @@ body {
 }
 
 main,
-header,
 footer {
   display: block;
   margin: 10px auto;
@@ -48,8 +47,8 @@ form,
 .generated-content {
   border-radius: 4px;
   background-color: rgb(255, 255, 255, 0.1);
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 40px 20px;
 }
 
 .text-input {
@@ -62,7 +61,7 @@ form,
 
 .input-button {
   display: block;
-  margin: 10px auto;
+  margin: 15px auto 0;
   padding: 10px 40px;
   border-radius: 25px;
   border-style: none;
@@ -83,8 +82,7 @@ form,
 
 .quote {
   text-align: center;
-  margin-top: 10px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 @media (max-width: 500px) {
@@ -97,6 +95,11 @@ form,
   }
   form {
     margin-top: 0;
+  }
+
+  form,
+  .generated-content {
+    padding: 20px;
   }
   .text-input {
     width: 90%;
