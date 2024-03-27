@@ -26,10 +26,12 @@ let formElement = document.querySelector("form");
 formElement.addEventListener("submit", generateWorkout);
 
 let quotes = [
-  "<em>“Strength does not come from physical capacity. It comes from an indomitable will.”</em>  –Mahatma Gandhi",
-  "<em>“To keep the body in good health is a duty otherwise we shall not be able to keep our mind strong clear.”</em> <br>–Buddha",
-  "<em>“No pain, no gain.”</em> –Robert Herrick",
-  "<em>“Allow yourself the opportunity to get uncomfortable.”</em> <br>–Alex Toussaint",
+  "<em>“Strength does not come from physical capacity. It comes from an indomitable will.”</em> <br>– Mahatma Gandhi",
+  "<em>“To keep the body in good health is a duty, otherwise we shall not be able to keep our mind strong and clear.”</em> <br>– Buddha",
+  "<em>“No pain, no gain.”</em> <br>– Robert Herrick",
+  "<em>“Allow yourself the opportunity to get uncomfortable.”</em> <br>– Alex Toussaint",
+  "<em>“The only bad workout is the one that didn't happen.”</em> <br>– Unknown",
+  "<em>“What hurts today makes you stronger tomorrow.”</em> <br>– Jay Cutler",
 ];
 
 let random = quotes[Math.floor(Math.random() * quotes.length)];

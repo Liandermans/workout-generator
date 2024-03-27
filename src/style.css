@@ -19,10 +19,11 @@ footer {
 
 main {
   background-image: url(/images/gespierde-rug.jpg);
+  background-size: contain;
   border: 3px solid var(--primary-color);
   border-radius: 6px;
   padding: 0px 30px 30px;
-  min-height: 750px;
+  height: 750px;
 }
 
 h1 {
@@ -76,17 +77,27 @@ form,
 }
 
 .generated-content {
-  min-height: 500px;
+  height: fit-content;
   text-align: left;
 }
 
 .quote {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   line-height: 1.5;
 }
 
 @media (max-width: 500px) {
+  main {
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+  }
+  form {
+    margin-top: 0;
+  }
   .text-input {
     width: 90%;
   }
